@@ -22,4 +22,4 @@ ans, unans = srp(p, multi=True, timeout=30)
 #start the loop to parse any caught answers
 for a in ans:
     #display the Mac and IP address of 
-    print a[1][Ether].src, p[1][IP].src
+    print a[1][Ether].src, a[1][IP].src
