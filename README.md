@@ -16,3 +16,10 @@ DHCP-Finder
 ===========
 
 A tools that atempts to find all DHCP servers on a network by broadcasting custom DHCP discover packets and returning the MAC and IP address of any servers found. 
+
+Lease-Eater
+===========
+
+A short tool that will start consuming the leases of all DHCP server untill they stop responding to requests.
+
+**Warning: This is a dangerous tool that could criple a network. Use at your own risk.**
