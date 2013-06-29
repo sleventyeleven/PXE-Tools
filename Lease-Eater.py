@@ -50,7 +50,7 @@ while ans is not None:
     #get all responses in 10 seconds
     ans, unans = srp(p, multi=True, timeout=10)
     
+    print "The captured leases are"
     #display the consumed IP address  and the MAC address used
     for a in ans:
-        print "The captured leases are"
         print a[1][Ether].dst, a[1][BOOTP].yiaddr
